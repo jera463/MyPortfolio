@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeralyn Mondijar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">JM<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h3>Kamusta! Ako si</h3>
+            <h1>Jeralyn Mondijar</h1>
+            <h2><span class="typing"></span></h2>
+            <p>Isang proactive na BSIT Student at dating Technical Support Specialist sa Teleperformance.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1CAQwNAmdh/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/usrnmjam_?exln=MTl4YjduM3oyeTN1aw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@itz_mejammy?_r=1&_t=ZS-9AgiotgJRf4" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/jeralyn-mondijar-834159386" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#contact" class="btn">Makipag-ugnayan</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" data-aos="fade-right">
+        <h2 class="title">Tungkol sa Akin</h2>
+        <div class="about-container">
+            <p>A proactive BSIT student with practical OJT experience and active student organization involvement, aiming to contribute technical skills, collaboration, and leadership qualities to a dynamic company while continuing professional growth.</p>
+            
+            <div class="education-card">
+                <h3><i class="fas fa-graduation-cap"></i> Edukasyon</h3>
+                <ul>
+                    <li><strong>Tertiary:</strong> BS in Information Technology (3rd Year) - Phinma Saint Jude College</li>
+                    <li><strong>Senior High School:</strong> Osmeña Colleges (With High Honor, Grade 12)</li>
+                    <li><strong>Secondary:</strong> Dimasalang National High School</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-alt" data-aos="fade-left">
+        <h2 class="title">Karanasan at Leadership</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Technical Support (OJT)</h3>
+                <h4>Teleperformance | July 2025 - October 2025</h4>
+                <p>Nagbigay ng technical support at desktop troubleshooting para sa mga usapin sa system at network.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>SSITE Organization President</h3>
+                <h4>Phinma Saint Jude College - Manila | 3rd Year</h4>
+                <p>Nanguna sa pag-organisa ng mga aktibidad at student engagement kabilang ang Company Proposal at System Showcase.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>SSITE Organization Auditor</h3>
+                <h4>Phinma Saint Jude College - Manila | 2nd Year</h4>
+                <p>Nangasiwa sa pondo at financial reports ng organisasyon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" data-aos="zoom-in">
+        <h2 class="title">Kasanayan (Skills)</h2>
+        <div class="skills-grid">
+            <div class="skill-box"><i class="fas fa-code"></i> C# / PHP</div>
+            <div class="skill-box"><i class="fab fa-html5"></i> HTML5 & CSS3</div>
+            <div class="skill-box"><i class="fas fa-users"></i> Leadership & Management</div>
+            <div class="skill-box"><i class="fas fa-comments"></i> Communication Skills</div>
+            <div class="skill-box"><i class="fas fa-clock"></i> Organization & Time Management</div>
+            <div class="skill-box"><i class="fas fa-tasks"></i> Technical Support & Troubleshooting</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt" data-aos="fade-up">
+        <h2 class="title">Makipag-ugnayan</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> mondijarjeralynjam081504@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 09653775945</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1789 San Lazaro St., Santa Cruz, Manila</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Inyong Pangalan" required>
+                <input type="email" id="email" placeholder="Inyong Email" required>
+                <input type="text" id="subject" placeholder="Paksa" required>
+                <textarea id="message" rows="5" placeholder="Mensahe..." required></textarea>
+                <button type="submit" class="btn">Ipadala ang Mensahe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
