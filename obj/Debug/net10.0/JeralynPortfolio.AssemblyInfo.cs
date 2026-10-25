@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeralynPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d30b7259b104975fe04efb90ad77cc44429200a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7f3fa5664c5c6f3fc6d331a35f1c0a9f4fbe99e")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeralynPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeralynPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

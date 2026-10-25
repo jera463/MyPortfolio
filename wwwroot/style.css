@@ -595,7 +595,8 @@ html.js .page.is-visible .page-inner > *:nth-child(4) { transition-delay: 280ms;
     position: relative;
     display: grid;
     min-width: 0;
-    min-height: 500px;
+    min-height: 560px;
+    padding-bottom: 3.75rem;   /* espasyo sa ilalim para sa note */
     place-items: center;
     isolation: isolate;
 }
@@ -709,9 +710,9 @@ html.js .page.is-visible .page-inner > *:nth-child(4) { transition-delay: 280ms;
     50%      { transform: translateY(-8px); }
 }
 
+/* BAGONG CODE */
 .floating-note-top { top: 10%; right: -2%; }
-.floating-note-bottom { bottom: 10%; left: -4%; animation-delay: -3s; }
-
+.floating-note-bottom { bottom: 25% !important; left: -4%; animation-delay: -3s; }
 .floating-note-icon {
     display: grid;
     width: 38px;
@@ -1249,9 +1250,9 @@ a.contact-item:hover { border-color: var(--accent-border); background: rgba(244,
     .hero-visual { min-height: 0; padding: 1rem 0 0.5rem; }
     .hero-orbit { display: none; }
     .profile-card { width: min(100%, 300px); }
-    .floating-note-top { top: 4%; right: 2%; }
-    .floating-note-bottom { bottom: 6%; left: 2%; }
-
+/* BAGONG CODE FOR MOBILE */
+.floating-note-top { top: 4%; right: 2%; }
+.floating-note-bottom { bottom: 18%; left: 2%; }
     .about-layout,
     .skills-layout,
     .references-grid,
